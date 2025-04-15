@@ -1,17 +1,23 @@
 {
   "name": "socket-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple socket.io server for Roomzy video sync functionality.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "YourName",
   "license": "ISC",
-  "description": "",
+  "keywords": [
+    "socket.io",
+    "express",
+    "video-sync",
+    "roomzy"
+  ],
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0",
+    "express": "^4.21.2",
     "socket.io": "^4.8.1"
-  }
+  },
+  "devDependencies": {}
 }
